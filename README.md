@@ -5,7 +5,7 @@ Vroom();
 Raven();
 Slapper();
 
-int main();
+int main()
 {//Begin int
 
 //The robot will move towards the ramp to pull out the transport
@@ -86,3 +86,5 @@ Void Slapper(int servonum, int angle)
   set_servo_position(servonum, angle);
   disable_servos();
 }//End void
+
+
